@@ -1,0 +1,1 @@
+export const SELECTED_CARD = 'SELECTED_CARD'

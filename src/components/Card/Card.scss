@@ -1,0 +1,156 @@
+.card-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+  cursor: pointer;
+
+  &_selected {
+    .card-description {
+      border: 4px solid #d91667;
+
+      .card-circle {
+        background-color: #d91667;
+      }
+
+      &:hover {
+        border: 4px solid #e62e7a;
+
+        .card-circle {
+          background-color: #e62e7a;
+        }
+      }
+    }
+  }
+
+  &_disable {
+    cursor: default;
+    pointer-events: none;
+
+    .card-description {
+      border: 4px solid #b3b3b3;
+
+      .card-signature,
+      .card-title,
+      .card-doping,
+      .card-portion,
+      .card-present {
+        color: hsla(0, 0%, 70%, 0.5);
+      }
+
+      .card-image {
+        opacity: 0.5;
+      }
+
+      .card-circle {
+        background-color: #b3b3b3;
+      }
+    }
+  }
+}
+
+.card-description {
+  position: relative;
+  overflow: hidden;
+  border: 4px solid #1698d9;
+  border-radius: 12px;
+  padding: 24px 64px 0 49px;
+  width: 220px;
+  height: 480px;
+  background-color: #fff;
+
+  &:hover {
+    border: 4px solid #2ea8e6;
+
+    .card-circle {
+      background-color: #2ea8e6;
+    }
+  }
+}
+
+.card-signature {
+  font-size: 16px;
+  color: #666;
+}
+
+.card-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.card-doping {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+
+  span {
+    font-size: 14px;
+    line-height: 1.14;
+    color: #666;
+
+    strong {
+      font-weight: bold;
+    }
+  }
+}
+
+.card-image {
+  position: absolute;
+  left: -25px;
+  bottom: -95px;
+
+  img {
+    display: block;
+    width: 370px;
+  }
+}
+
+.card-circle {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 81px;
+  height: 81px;
+  background-color: #1698d9;
+
+  span {
+    color: #fff;
+
+    &:first-child {
+      line-height: 40px;
+      font-size: 42px;
+    }
+
+    &:last-child {
+      line-height: 20px;
+      font-size: 21px;
+    }
+  }
+}
+
+.card-text {
+  margin-top: 15px;
+  font-size: 13px;
+  line-height: 1.23;
+  text-shadow: 0 1px 0 #000;
+  color: #fff;
+}
+
+.card-link {
+  border-bottom: 1px dashed #1698d9;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1698d9;
+}

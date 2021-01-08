@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'ExoThin';
+  src: url('./assets/fonts/Exo20-Thin.ttf') format('truetype'),
+    url('./assets/fonts/Exo20-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TrebuchetMS';
+  src: url('./assets/fonts/TrebuchetMS.ttf') format('truetype'),
+    url('./assets/fonts/TrebuchetMS.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'TrebuchetMS', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

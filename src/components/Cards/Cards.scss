@@ -1,0 +1,15 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-caption {
+    margin: 0;
+    margin-bottom: 23px;
+    font-family: 'ExoThin';
+    font-weight: 100;
+    font-size: 36px;
+    text-shadow: 0 1px 0 #000;
+    color: #fff;
+  }
+}
