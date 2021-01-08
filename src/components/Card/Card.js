@@ -79,13 +79,9 @@ function Card({ children }) {
       ) : (
         <span className='card-text'>
           Чего сидишь? Порадуй котэ,&nbsp;
-          <a
-            className='card-link'
-            onClick={() => selectingCard(children)}
-            href='!#'
-          >
+          <span className='card-link' onClick={() => selectingCard(children)}>
             купи.
-          </a>
+          </span>
         </span>
       )}
     </li>
