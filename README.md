@@ -7,6 +7,8 @@
 
 Stack: React
 
+## [See the project](https://opv1.github.io/funbox-test/)
+
 ## Setup
 
 ```
