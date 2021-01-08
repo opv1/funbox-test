@@ -1,24 +1,28 @@
+@import '../../_variables.scss';
+
 .card-item {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 40px;
+  justify-content: space-between;
+  margin: 5px;
   cursor: pointer;
+  user-select: none;
 
   &_selected {
     .card-description {
-      border: 4px solid #d91667;
+      border: 4px solid $selectedColor;
 
       .card-circle {
-        background-color: #d91667;
+        background-color: $selectedColor;
       }
 
       &:hover {
-        border: 4px solid #e62e7a;
+        border: 4px solid $hoverSelectedColor;
 
         .card-circle {
-          background-color: #e62e7a;
+          background-color: $hoverSelectedColor;
         }
       }
     }
@@ -29,7 +33,7 @@
     pointer-events: none;
 
     .card-description {
-      border: 4px solid #b3b3b3;
+      border: 4px solid $disabledColor;
 
       .card-signature,
       .card-title,
@@ -44,7 +48,7 @@
       }
 
       .card-circle {
-        background-color: #b3b3b3;
+        background-color: $disabledColor;
       }
     }
   }
@@ -53,18 +57,18 @@
 .card-description {
   position: relative;
   overflow: hidden;
-  border: 4px solid #1698d9;
+  border: 4px solid $commonColor;
   border-radius: 12px;
   padding: 24px 64px 0 49px;
   width: 220px;
   height: 480px;
-  background-color: #fff;
+  background-color: $whiteColor;
 
   &:hover {
-    border: 4px solid #2ea8e6;
+    border: 4px solid $hoverCommonColor;
 
     .card-circle {
-      background-color: #2ea8e6;
+      background-color: $hoverCommonColor;
     }
   }
 }
@@ -123,19 +127,19 @@
   border-radius: 100%;
   width: 81px;
   height: 81px;
-  background-color: #1698d9;
+  background-color: $commonColor;
 
   span {
-    color: #fff;
+    color: $whiteColor;
 
     &:first-child {
-      line-height: 40px;
       font-size: 42px;
+      line-height: 40px;
     }
 
     &:last-child {
-      line-height: 20px;
       font-size: 21px;
+      line-height: 20px;
     }
   }
 }
@@ -144,13 +148,13 @@
   margin-top: 15px;
   font-size: 13px;
   line-height: 1.23;
-  text-shadow: 0 1px 0 #000;
-  color: #fff;
+  text-shadow: 0 1px 0 $blackColor;
+  color: $whiteColor;
 }
 
 .card-link {
-  border-bottom: 1px dashed #1698d9;
+  border-bottom: 1px dashed $commonColor;
   font-weight: bold;
   text-decoration: none;
-  color: #1698d9;
+  color: $commonColor;
 }
