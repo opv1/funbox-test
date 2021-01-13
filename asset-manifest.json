@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/funbox-test/static/css/main.0a905cdc.chunk.css",
+    "main.css": "/funbox-test/static/css/main.2a9b0956.chunk.css",
     "main.js": "/funbox-test/static/js/main.aa8d850e.chunk.js",
     "main.js.map": "/funbox-test/static/js/main.aa8d850e.chunk.js.map",
     "runtime-main.js": "/funbox-test/static/js/runtime-main.7b64a835.js",
@@ -8,7 +8,7 @@
     "static/js/2.dab9e927.chunk.js": "/funbox-test/static/js/2.dab9e927.chunk.js",
     "static/js/2.dab9e927.chunk.js.map": "/funbox-test/static/js/2.dab9e927.chunk.js.map",
     "index.html": "/funbox-test/index.html",
-    "static/css/main.0a905cdc.chunk.css.map": "/funbox-test/static/css/main.0a905cdc.chunk.css.map",
+    "static/css/main.2a9b0956.chunk.css.map": "/funbox-test/static/css/main.2a9b0956.chunk.css.map",
     "static/js/2.dab9e927.chunk.js.LICENSE.txt": "/funbox-test/static/js/2.dab9e927.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/funbox-test/static/media/TrebuchetMS.d69a7204.ttf",
     "static/media/App.scss": "/funbox-test/static/media/background.b598336e.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b64a835.js",
     "static/js/2.dab9e927.chunk.js",
-    "static/css/main.0a905cdc.chunk.css",
+    "static/css/main.2a9b0956.chunk.css",
     "static/js/main.aa8d850e.chunk.js"
   ]
 }
