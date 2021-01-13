@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
   min-width: 320px;
+  max-width: 1440px;
   background-image:
     linear-gradient(to top, #000, rgba(0, 0, 0, 0.01), #000),
     url('./assets/images/background.png');

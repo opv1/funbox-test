@@ -80,12 +80,12 @@
 
 .card-title {
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 48px;
 }
 
 .card-doping {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
 }
 
@@ -100,7 +100,7 @@
     color: #666;
 
     strong {
-      font-weight: bold;
+      font-weight: 700;
     }
   }
 }
@@ -154,6 +154,6 @@
 
 .card-link {
   border-bottom: 1px dashed $commonColor;
-  font-weight: bold;
+  font-weight: 700;
   color: $commonColor;
 }
